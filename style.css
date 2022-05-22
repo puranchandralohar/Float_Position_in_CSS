@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin:20px;
+    padding:10px;
+}
+
+.heading,.profile-section{
+    background-color: #c15355;
+    color:#fff;
+    padding: 20px 10px;
+}
+
+.logo{
+    width:40%;
+    text-align: center;
+    display: inline-block;
+}
+
+.navbar{
+    padding: 10px 20px;
+    width:50%;
+    float: right;
+    text-align: center;
+   
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-right:15px;
+    
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.heading{
+    position: sticky;
+    top:0;
+}
+
+.subheading{
+    padding: 50px;
+    width:100%;
+    text-align: center;
+    background-color: #c15355;
+    color:#fff;
+}
+.subheading h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.articles{
+    padding: 20px;
+}
+
+.section{
+    width:30%;
+    display: inline-block;
+    padding: 10px;
+    text-align: justify;
+    
+}
+
+.section h3{
+    color:#c15355;
+
+}
+.section h3,p{
+    padding: 10px;
+}
+
+button{
+    padding:5px 12px;
+    margin-left:10px;
+    background-color: #c15355;
+    color:#fff;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+
+.nav-btn{
+    position: fixed;
+    top:60%;
+    right:5%;
+    padding:10px 15px;
+    border-radius: 50%;
+    background-color: #adadad;
+    color:#000000;
+    border:2px solid #c15355;
+    cursor: pointer;
+}
+
+.profile-section{
+    text-align: center;
+}
+
+.profile-section .profile{
+    display: inline-block;
+    border:1px solid #fff;
+    height:200px;
+    width:200px;
+    padding: 20px;
+    margin:10px;
+}
+.profile .profile-pic{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+.profile p{
+    color:#e3e3e3;
+}
+
+.profile .logo{
+    padding: 10px 5px;
+    width:80px;
+    height:40px;
+    background-color: #fff;
+    border-radius:5px;
+    position: relative;
+    right:-70px;
+    top:-5px;
+
+}
+
+.article2{
+    padding: 20px 30px;
+    width:100%;
+}
+
+.article-head{
+    margin:50px 0;
+    color:#c15355;
+    text-align: center;
+}
+
+.section2{
+    width:40%;
+    display: inline-block;
+    text-align: justify;
+    margin-left:50px;
+}
+
+.section2 img{
+    width:450px;
+    height:250px;
+    padding: 10px;
+}
+
+.section2 h3,p{
+    padding:10px;
+}
+.section2 h3{
+    color: #c15355;
+}
